@@ -28,9 +28,8 @@
                                     <constraint firstAttribute="height" constant="100" id="ctQ-TL-kuh"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$13.00" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o06-Vi-SzF" customClass="UICurrencyTxtField" customModule="WindowShopeerApp" customModuleProvider="target">
-                                <rect key="frame" x="139" y="209" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o06-Vi-SzF" customClass="UICurrencyTxtField" customModule="WindowShopeerApp" customModuleProvider="target">
+                                <rect key="frame" x="100" y="210" width="175" height="46"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -38,12 +37,16 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="o06-Vi-SzF" firstAttribute="top" secondItem="1kb-aW-o5V" secondAttribute="bottom" constant="40" id="47a-I1-lT6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KzP-jI-1Dh" secondAttribute="trailing" id="4RY-TP-a9d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o06-Vi-SzF" secondAttribute="trailing" constant="100" id="CKx-qN-HKO"/>
                             <constraint firstItem="KzP-jI-1Dh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KRc-SF-OHr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KzP-jI-1Dh" secondAttribute="bottom" id="Nb7-KR-tXv"/>
                             <constraint firstItem="1kb-aW-o5V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yhc-Ha-nNk"/>
                             <constraint firstItem="1kb-aW-o5V" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="l4i-9V-5JZ"/>
+                            <constraint firstItem="o06-Vi-SzF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vTg-by-eEO"/>
                             <constraint firstItem="KzP-jI-1Dh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="yva-NX-CnW"/>
+                            <constraint firstItem="o06-Vi-SzF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="z5S-N0-zQg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
