@@ -12,6 +12,7 @@
 		E83C8C522242DBDF00788C82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E83C8C502242DBDF00788C82 /* Main.storyboard */; };
 		E83C8C542242DBE200788C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83C8C532242DBE200788C82 /* Assets.xcassets */; };
 		E83C8C572242DBE200788C82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E83C8C552242DBE200788C82 /* LaunchScreen.storyboard */; };
+		E87437912244175C009E4951 /* UICurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87437902244175C009E4951 /* UICurrencyTxtField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E83C8C532242DBE200788C82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E83C8C562242DBE200788C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E83C8C582242DBE200788C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87437902244175C009E4951 /* UICurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICurrencyTxtField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		E83C8C4B2242DBDE00788C82 /* WindowShopeerApp */ = {
 			isa = PBXGroup;
 			children = (
+				E874378F22441735009E4951 /* view */,
 				E83C8C5E2242DD6400788C82 /* controller */,
 				E83C8C4C2242DBDE00788C82 /* AppDelegate.swift */,
 				E83C8C502242DBDF00788C82 /* Main.storyboard */,
@@ -70,6 +73,14 @@
 				E83C8C4E2242DBDF00788C82 /* MainVC.swift */,
 			);
 			path = controller;
+			sourceTree = "<group>";
+		};
+		E874378F22441735009E4951 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E87437902244175C009E4951 /* UICurrencyTxtField.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			files = (
 				E83C8C4F2242DBDF00788C82 /* MainVC.swift in Sources */,
 				E83C8C4D2242DBDF00788C82 /* AppDelegate.swift in Sources */,
+				E87437912244175C009E4951 /* UICurrencyTxtField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
