@@ -28,7 +28,7 @@
                                     <constraint firstAttribute="height" constant="100" id="ctQ-TL-kuh"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$13.00" placeholder="Wage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o06-Vi-SzF" customClass="UICurrencyTxtField" customModule="WindowShopeerApp" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$13.00" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o06-Vi-SzF" customClass="UICurrencyTxtField" customModule="WindowShopeerApp" customModuleProvider="target">
                                 <rect key="frame" x="139" y="209" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>

@@ -17,7 +17,7 @@ class UICurrencyTxtField: UITextField {
         textAlignment = .center
         
         if placeholder == nil {
-            placeholder = ""
+            placeholder = " "
         }
         
         let place = NSAttributedString(string: placeholder!, attributes: [.foregroundColor: UIColor.white])
