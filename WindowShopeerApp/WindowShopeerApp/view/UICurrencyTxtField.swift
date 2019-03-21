@@ -8,11 +8,21 @@
 
 import UIKit
 
+@IBDesignable
 class UICurrencyTxtField: UITextField {
 
+    override func prepareForInterfaceBuilder() {
+        customizeView()
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.7016395246)
+        customizeView()
+        
+    }
+    
+    func customizeView() {
+        backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.3001485475)
         layer.cornerRadius = 5.0
         textAlignment = .center
         
@@ -25,6 +35,8 @@ class UICurrencyTxtField: UITextField {
         
         textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         
+        keyboardType = UIKeyboardType.decimalPad
+        enablesReturnKeyAutomatically = true
     }
 
 }

@@ -10,9 +10,25 @@ import UIKit
 
 class MainVC: UIViewController {
 
+    @IBOutlet weak var wageTxt: UICurrencyTxtField!
+    @IBOutlet weak var priceTxt: UICurrencyTxtField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let calculateBtn = UIButton(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 60))
+        calculateBtn.backgroundColor = #colorLiteral(red: 0.9529411793, green: 0.6862745285, blue: 0.1333333403, alpha: 1)
+        calculateBtn.setTitle("Calculate", for: .normal)
+        calculateBtn.setTitleColor(UIColor.white, for: .normal)
+        
+        calculateBtn.addTarget(self, action: #selector(MainVC.calculate), for: .touchUpInside)
+        
+        wageTxt.inputAccessoryView = calculateBtn
+        priceTxt.inputAccessoryView = calculateBtn
+    }
+    
+    @objc func calculate(){
+        print("We got here")
     }
 
 
